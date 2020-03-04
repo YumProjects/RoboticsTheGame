@@ -35,6 +35,11 @@ namespace RoboticsTheGame
             SkipLine();
             YesIsWrong("Do we like data tables?");
             PrintLine("Glad were on the same page.");
+            SkipLine();
+            PrintLine("Anyway, you leave for competition tomorow and there's probably like 7 parts");
+            PrintLine("of the robot that don't work at all.");
+            YesIsWrong("But do we care?");
+            PrintLine("That's right. It's good enough for team 5496.");
             WaitForKey();
         }
     }

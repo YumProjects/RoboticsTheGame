@@ -25,7 +25,7 @@ namespace RoboticsTheGame
             {
                 Console.Write(str[i]);
                 if(!char.IsWhiteSpace(str[i]))
-                    Sleep(0.02);
+                    Sleep(0.03);
             }
         }
 
